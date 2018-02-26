@@ -76,5 +76,9 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+
 deploy:
-  type:
+  type: git
+  repo: https://github.com/kenokabe/kenokabe.github.io
+  branch: master
+  message: update
